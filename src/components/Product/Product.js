@@ -16,7 +16,7 @@ const Product = (props) => {
     <p>Ratings:{ratings}</p>
     </div>
         <button onClick={()=>handleAddToCart(product)}  className='btn-cart'>
-        <p>Add To Cart</p>
+        <p>Add To Cart</p> 
         </button>
         </div>
     );
