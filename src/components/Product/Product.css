@@ -31,6 +31,9 @@ margin-top: 5px;
    margin-top: 7px;
 }
 .btn-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     background-color: #ffe0b3;
     border-radius: 0px 0px 8px 8px;
@@ -39,6 +42,9 @@ margin-top: 5px;
     bottom: 0;
 
 
+}
+.btn-text{
+    margin-right: 15px;
 }
 .btn-cart:hover{
     background-color: orange;
